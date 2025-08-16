@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="D38 Security Labs - Especialistas en Red Team, Pentesting y Threat Intelligence. Servicios profesionales de ciberseguridad para empresas.">
+    <link rel="canonical" href="https://d38securitylabs.com">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>D38 Security Labs - Red Team, Pentesting & Threat Intelligence</title>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "D38 Security Labs",
+                "url": "https://d38securitylabs.com",
+                "logo": "https://d38securitylabs.com/logo.png",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+52-55-1234-5678",
+                    "contactType": "customer service",
+                    "email": "contacto@d38securitylabs.com"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "MX"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "name": "D38 Security Labs",
+                "url": "https://d38securitylabs.com"
+            },
+            {
+                "@type": "Service",
+                "name": "Red Team Operations",
+                "description": "Simulaciones APT, ingeniería social dirigida, bypass de controles, exfiltración simulada, reportes ejecutivos"
+            },
+            {
+                "@type": "Service",
+                "name": "Pentesting Especializado",
+                "description": "Web, móvil, APIs e infraestructura; metodologías OWASP / PTES"
+            },
+            {
+                "@type": "Service",
+                "name": "Threat Intelligence",
+                "description": "IOCs, perfiles de actores, dark web, feeds en tiempo real"
+            },
+            {
+                "@type": "Service",
+                "name": "Ingeniería Social",
+                "description": "Phishing, vishing, pretexting, onsite assessments"
+            },
+            {
+                "@type": "Service",
+                "name": "Capacitación Técnica",
+                "description": "Talleres ofensivos/defensivos, hardening, secure SDLC"
+            },
+            {
+                "@type": "Service",
+                "name": "Attack Surface Management",
+                "description": "Descubrimiento continuo, inventario de activos, exposición externa"
+            },
+            {
+                "@type": "Service",
+                "name": "AI Agents para OffSec",
+                "description": "Automatización asistida para reconocimiento, fuzzing controlado y triage"
+            },
+            {
+                "@type": "Service",
+                "name": "Consultoría en Ciberseguridad",
+                "description": "Estrategia, cumplimiento y acompañamiento continuo"
+            }
+        ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <span class="logo">D38</span>
+                </div>
+                
+                <nav class="header__nav" aria-label="Navegación principal">
+                    <ul class="nav-list">
+                        <li><a href="#servicios" class="nav-link">Qué Hacemos</a></li>
+                        <li><a href="#por-que-d38" class="nav-link">Por Qué D38</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <a href="#contacto" class="btn btn--primary header__cta">Solicitar Cotización</a>
+                
+                <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">D38 Security Labs</h1>
+                    <p class="hero__subtitle">Red Team · Pentesting · Threat Intelligence · Ingeniería Social · Capacitación</p>
+                    <p class="hero__description">
+                        Especialistas en ciberseguridad ofensiva con enfoque en operaciones de Red Team, 
+                        pruebas de penetración avanzadas y inteligencia de amenazas para fortalecer 
+                        la postura de seguridad de tu organización.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#contacto" class="btn btn--primary">Comenzar Ahora</a>
+                        <a href="#servicios" class="btn btn--secondary">Ver Servicios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">Qué Hacemos</h2>
+                
+                <div class="rotating-carousel" aria-roledescription="carousel">
+                    <div class="rotating-carousel__track">
+                        <article class="rotating-service-card rotating-service-card--center" aria-roledescription="slide" aria-current="true">
+                            <div class="service-card__icon" aria-hidden="true">🎯</div>
+                            <h3 class="service-card__title">Red Team Operations</h3>
+                            <p class="service-card__description">
+                                Simulaciones APT, ingeniería social dirigida, bypass de controles, 
+                                exfiltración simulada, reportes ejecutivos.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Simulación de adversarios reales</li>
+                                <li>Ataques de múltiples vectores</li>
+                                <li>Reportes ejecutivos detallados</li>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#red-team" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card rotating-service-card--right" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🔍</div>
+                            <h3 class="service-card__title">Pentesting Especializado</h3>
+                            <p class="service-card__description">
+                                Web, móvil, APIs e infraestructura; metodologías OWASP / PTES.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Metodologías reconocidas</li>
+                                <li>Cobertura integral</li>
+                                <li>Informes detallados</li>
+                                </br>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#pentesting" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🕵️</div>
+                            <h3 class="service-card__title">Threat Intelligence</h3>
+                            <p class="service-card__description">
+                                IOCs, perfiles de actores, dark web, feeds en tiempo real.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Inteligencia contextual</li>
+                                <li>Monitoreo dark web</li>
+                                <li>Feeds en tiempo real</li>
+                                </br>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#threat-intelligence" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🎭</div>
+                            <h3 class="service-card__title">Ingeniería Social</h3>
+                            <p class="service-card__description">
+                                Phishing, vishing, pretexting, onsite assessments.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Campañas realistas</li>
+                                <li>Evaluación presencial</li>
+                                <li>Concientización efectiva</li>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#ingenieria-social" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🎓</div>
+                            <h3 class="service-card__title">Capacitación Técnica</h3>
+                            <p class="service-card__description">
+                                Talleres ofensivos/defensivos, hardening, secure SDLC.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Hands-on training</li>
+                                <li>Certificaciones</li>
+                                <li>Contenido actualizado</li>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#capacitacion" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🌐</div>
+                            <h3 class="service-card__title">Attack Surface Management</h3>
+                            <p class="service-card__description">
+                                Descubrimiento continuo, inventario de activos, exposición externa.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Monitoreo continuo</li>
+                                <li>Inventario automático</li>
+                                <li>Gestión de riesgos</li>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#asm" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                        
+                        <article class="rotating-service-card" aria-roledescription="slide">
+                            <div class="service-card__icon" aria-hidden="true">🤖</div>
+                            <h3 class="service-card__title">AI Agents para OffSec</h3>
+                            <p class="service-card__description">
+                                Automatización asistida para reconocimiento, fuzzing controlado y triage.
+                            </p>
+                            <ul class="service-card__features">
+                                <li>Automatización inteligente</li>
+                                <li>Fuzzing avanzado</li>
+                                <li>Triage eficiente</li>
+                            </ul>
+                            <div class="service-card__actions">
+                                <a href="servicios.html#ai-agents" class="btn btn--secondary btn--small">Saber Más</a>
+                                <a href="#contacto" class="btn btn--primary btn--small">Cotizar</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="rotating-carousel__controls">
+                        <button class="rotating-carousel__nav rotating-carousel__nav--prev" aria-label="Servicio anterior">
+                            <span aria-hidden="true">‹</span>
+                        </button>
+                        <button class="rotating-carousel__nav rotating-carousel__nav--next" aria-label="Siguiente servicio">
+                            <span aria-hidden="true">›</span>
+                        </button>
+                    </div>
+                    
+                    <div class="rotating-carousel__indicators">
+                        <button class="rotating-carousel__indicator rotating-carousel__indicator--active" aria-label="Ir al servicio 1"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 2"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 3"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 4"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 5"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 6"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 7"></button>
+                        <button class="rotating-carousel__indicator" aria-label="Ir al servicio 8"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="por-que-d38" class="why-d38">
+            <div class="container">
+                <h2 class="section-title">Por Qué D38</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true">⚡</div>
+                        <h3 class="feature-card__title">Velocidad</h3>
+                        <p class="feature-card__description">
+                            Respuesta rápida y ejecución eficiente de proyectos con 
+                            metodologías ágiles y equipos especializados.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true">🎯</div>
+                        <h3 class="feature-card__title">Eficiencia</h3>
+                        <p class="feature-card__description">
+                            Optimización de recursos y procesos para maximizar el ROI 
+                            en seguridad con mínimo impacto operacional.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-card__icon" aria-hidden="true">📊</div>
+                        <h3 class="feature-card__title">Seguimiento</h3>
+                        <p class="feature-card__description">
+                            Monitoreo continuo y reportes detallados para garantizar 
+                            la mejora constante de tu postura de seguridad.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact__grid">
+                    <div class="contact__form-wrapper">
+                        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="website">
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="hidden" name="website" class="honeypot">
+                            <input type="hidden" name="timestamp" id="timestamp">
+                            
+                            <div class="form-group">
+                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" class="form-input" required aria-describedby="nombre-error">
+                                <div id="nombre-error" class="form-error" aria-live="polite"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email corporativo</label>
+                                <input type="email" id="email" name="email" class="form-input" required aria-describedby="email-error">
+                                <div id="email-error" class="form-error" aria-live="polite"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="empresa" class="form-label">Empresa</label>
+                                <input type="text" id="empresa" name="empresa" class="form-input" required aria-describedby="empresa-error">
+                                <div id="empresa-error" class="form-error" aria-live="polite"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" class="form-textarea" rows="5" required aria-describedby="mensaje-error"></textarea>
+                                <div id="mensaje-error" class="form-error" aria-live="polite"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+                            
+                            <div class="form-success" aria-live="polite"></div>
+                        </form>
+                    </div>
+                    
+                    <div class="contact__info">
+                        <div class="contact-card">
+                            <h3 class="contact-card__title">Agenda una Consulta</h3>
+                            <p class="contact-card__description">
+                                Conversa directamente con nuestros especialistas sobre 
+                                tus necesidades de ciberseguridad.
+                            </p>
+                            <a href="#" class="btn btn--secondary btn--full" rel="noopener noreferrer">Agendar Cita</a>
+                            
+                            <div class="contact-card__details">
+                                <div class="contact-detail">
+                                    <span class="contact-detail__icon" aria-hidden="true">📞</span>
+                                    <a href="tel:+525512345678" class="contact-detail__link">+52 55 1234 5678</a>
+                                </div>
+                                <div class="contact-detail">
+                                    <span class="contact-detail__icon" aria-hidden="true">✉️</span>
+                                    <a href="mailto:contacto@d38securitylabs.com" class="contact-detail__link">contacto@d38securitylabs.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text">
+                    © 2025 D38 Security Labs. Todos los derechos reservados.
+                </p>
+                <div class="footer__links">
+                    <a href="#" class="footer__link" rel="noopener noreferrer">Términos y Condiciones</a>
+                    <a href="#" class="footer__link" rel="noopener noreferrer">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <noscript>
+        <div class="noscript-notice">
+            <p>Para una mejor experiencia, habilita JavaScript en tu navegador.</p>
+        </div>
+        <div class="services-grid-static">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                <div class="static-services">
+                    <div class="static-service-card">
+                        <h3>Red Team Operations</h3>
+                        <p>Simulaciones APT, ingeniería social dirigida, bypass de controles, exfiltración simulada, reportes ejecutivos.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Pentesting Especializado</h3>
+                        <p>Web, móvil, APIs e infraestructura; metodologías OWASP / PTES.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Threat Intelligence</h3>
+                        <p>IOCs, perfiles de actores, dark web, feeds en tiempo real.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Ingeniería Social</h3>
+                        <p>Phishing, vishing, pretexting, onsite assessments.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Capacitación Técnica</h3>
+                        <p>Talleres ofensivos/defensivos, hardening, secure SDLC.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Attack Surface Management</h3>
+                        <p>Descubrimiento continuo, inventario de activos, exposición externa.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>AI Agents para OffSec</h3>
+                        <p>Automatización asistida para reconocimiento, fuzzing controlado y triage.</p>
+                    </div>
+                    <div class="static-service-card">
+                        <h3>Consultoría en Ciberseguridad</h3>
+                        <p>Estrategia, cumplimiento y acompañamiento continuo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </noscript>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
